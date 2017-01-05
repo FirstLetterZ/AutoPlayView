@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.autoplayview.MainActivity">
+
+    <com.example.autoplayview.AutoPlayView
+        android:id="@+id/auto_iv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <com.example.autoplayview.AutoTextSwitcher
+        android:id="@+id/auto_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/auto_iv"
+        android:background="#dddddd" />
+
+</RelativeLayout>
